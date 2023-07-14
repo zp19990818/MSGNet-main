@@ -10,18 +10,18 @@ Downloading dataset and moving it into ./datasets/, which can be found as follow
 ✧ [Seagrass](https://doi.pangaea.de/10.1594/PANGAEA.926930)  
 ✧ [MoCA-Mask](https://xueliancheng.github.io/SLT-Net-project/)  
 
-We also provide processed datasets , which can be found as follow:   
+We also provide processed datasets, which can be found as follow:   
 ✧ [Google Drive](https://drive.google.com/file/d/1vcxuW0Erxhk2X5K9HdKrl3ap-GUMqPho/view?usp=sharing)  
 ✧ [百度网盘](https://pan.baidu.com/s/1pAOLFxF1OL3KJhDd8QkYiA)  ，提取码：k0jg
 ### 3. Flow extraction
 First, we need to generate an optical stream for the video data.
   
-cd `./flow_prepare/png2jpg_warp.py` to generate wrap image.  
+cd `./flow_prepare/png2jpg_warp.py` to generate wrap images.  
 
 Then, cd `./flow_prepare/final_RAFT.py` to extract optical flow.  
 
 Refer to `./flow_prepare/example/7623` for more details.  
-![Results of optical flow preprocessing](https://github.com/zp19990818/MSGNet-main/assets/53686038/2d236c28-25e6-451a-b83f-25205f75e565)
+![image](https://github.com/zp19990818/MSGNet-main/assets/53686038/d7bb266b-eae9-4ac2-917b-d77e533a0aab)
 
 ### 4. Train 
 In order to speed up data reading, the data needs to be packaged in advance to generate a pkl file,   
@@ -33,7 +33,22 @@ Then, just run `train.py`.
 ### 5. Test 
 Just run `test.py`， and enjoy it!  
 
+Test results can be evaluated by running `./measures/measure_all.py`
+
 Pre-training weights can be found here:  
 
 ✧ [Google Drive](https://drive.google.com/file/d/1nkKitUxrFdJjklX-7fYcLxp6Z5iKcmls/view?usp=sharing)  
-✧ [百度网盘](https://pan.baidu.com/s/1FMFMTfBaFlCUceCVRlC-aw)  ，提取码：yaev
+✧ [百度网盘](https://pan.baidu.com/s/1FMFMTfBaFlCUceCVRlC-aw)  ，提取码：yaev  
+
+### 6. Result
+![image](https://github.com/zp19990818/MSGNet-main/assets/53686038/b25f4550-832c-4c2e-82ea-127ba70e81dc)  
+
+## FAQ
+The relevant citation code can be found at the following link:  
+  [segmentation](https://github.com/open-mmlab/mmsegmentation)   
+  [SUIM-Net](https://github.com/xahidbuffon/SUIM)  
+  [WaterSNet](https://github.com/ruizhechen/WaterSNet)  
+  [FSNet](https://github.com/GewelsJI/FSNet)  
+  [AMC-Net](https://github.com/isyangshu/AMC-Net)
+  
+  
