@@ -21,7 +21,7 @@ cd `./flow_prepare/png2jpg_warp.py` to generate wrap images.
 Then, cd `./flow_prepare/final_RAFT.py` to extract optical flow.  
 
 Refer to `./flow_prepare/example/7623` for more details.  
-![image](https://github.com/zp19990818/MSGNet-main/assets/53686038/d7bb266b-eae9-4ac2-917b-d77e533a0aab)
+![image](https://github.com/zp19990818/MSGNet-main/assets/53686038/15edfa5e-c240-49f4-b0aa-38e714a72df0)
 
 ### 4. Train 
 In order to speed up data reading, the data needs to be packaged in advance to generate a pkl file,   
@@ -41,11 +41,11 @@ Pre-training weights can be found here:
 ✧ [百度网盘](https://pan.baidu.com/s/1FMFMTfBaFlCUceCVRlC-aw)  ，提取码：yaev  
 
 ### 6. Result
-![image](https://github.com/zp19990818/MSGNet-main/assets/53686038/b25f4550-832c-4c2e-82ea-127ba70e81dc)  
-
+![image](https://github.com/zp19990818/MSGNet-main/assets/53686038/f7e59064-e5fe-4371-8b1e-4c505df54051)
+ 
 ## FAQ
 The relevant citation code can be found at the following link:  
-  [segmentation](https://github.com/open-mmlab/mmsegmentation)   
+  [mmsegmentation](https://github.com/open-mmlab/mmsegmentation)   
   [SUIM-Net](https://github.com/xahidbuffon/SUIM)  
   [WaterSNet](https://github.com/ruizhechen/WaterSNet)  
   [FSNet](https://github.com/GewelsJI/FSNet)  
