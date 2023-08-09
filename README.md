@@ -14,7 +14,7 @@ We also provide processed datasets, which can be found as follow:
 ✧ [Google Drive](https://drive.google.com/file/d/1vcxuW0Erxhk2X5K9HdKrl3ap-GUMqPho/view?usp=sharing)  
 ✧ [百度网盘](https://pan.baidu.com/s/1pAOLFxF1OL3KJhDd8QkYiA)  ，提取码：k0jg
 ### 3. Flow extraction
-First, we need to generate an optical stream for the video data.
+First, we need to generate an optical flow for the video data.
   
 cd `./flow_prepare/png2jpg_warp.py` to generate wrap images.  
 
