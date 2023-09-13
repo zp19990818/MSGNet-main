@@ -1,6 +1,6 @@
 # MSGNet-main
 MSGNet: Multi-Source Guidance Network for Fish Segmentation in Underwater Videos  
-The paper can be found here [Paper](https://zhuanlan.zhihu.com/)
+The paper can be found here [Paper](https://www.frontiersin.org/articles/10.3389/fmars.2023.1256594/abstract)
 ## Usage
 ### 1. Requirements  
 Pytorch >= 1.11.0 , Note that torchvision must >= **0.12**
